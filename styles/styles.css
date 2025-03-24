@@ -1,0 +1,66 @@
+#heading {
+    color: blue;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body {
+    background-image: url('../images/web-dev3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+#content {
+    height: 300px;
+    width: 400px;
+    display: block;
+    margin: 20px auto;
+}
+
+.inside-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin-top: -33.5rem;
+    margin-right: 750px;
+    height: 450px;
+}
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align to the top */
+    width: 100%; /* Take full width */
+    height: 100%; /* Take full height */
+}
+
+#main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+}
+
+.cover img {
+    max-width: 100%; /* Ensure image fits within its container */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Add space below the image */
+}
